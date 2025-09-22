@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tentang Saya</title>
-  <style>
-    body { font-family: Arial, sans-serif; background:#f4f4f4; margin:0; padding:0; }
-    header { background:#007bff; color:white; text-align:center; padding:20px; }
-    nav a { color:white; margin:0 10px; text-decoration:none; font-weight:bold; }
-    main { background:white; padding:20px; margin:20px; border-radius:10px;
-           max-width:600px; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-left:auto; margin-right:auto;}
-    footer { background:#222; color:white; text-align:center; padding:10px; margin-top:20px;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Tentang Saya</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">Tentang</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Siapa Saya?</h2>
-    <p>Ini adalah halaman tentang saya. Kamu bisa isi biodata, cerita, atau apa saja yang ingin ditampilkan.</p>
-    <p><strong>Kembali ke</strong> <a href="index.html">halaman utama</a>.</p>
-    </main>
-  <footer>
-    &copy; 2025 Website Saya - Dibuat dengan ❤ menggunakan GitHub Pages
-  </footer>
+    <header>
+        <h1>Selamat Datang</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="photo.html">Photo</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Ini Halaman Utama</h2>
+        <p>Silakan klik menu di atas untuk melihat halaman lain.</p>
+        <img src="photo1.jpg" alt="Foto Contoh">
+    </div>
 </body>
 </html>
